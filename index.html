@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                <h3>HOME</h3>
+                <div class="scoreBack">
+                    <p class="score" id = "homeScore">0</p>
+                </div>
+                <div class="addScore">
+                    <button class="addbuttons" id="homeAdd1" onclick="homeAdd1()">+1</button>
+                    <button class="addbuttons" id="homeAdd2" onclick="homeAdd2()">+2</button>
+                    <button class="addbuttons" id="homeAdd3" onclick="homeAdd3()">+3</button>
+                </div>
+            </div>
+            <div class="team">
+                <h3>GUEST</h3>
+                <div class="scoreBack">
+                    <p class="score" id = "awayScore">0</p>
+                </div>
+                <div class="addScore">
+                    <button class="addbuttons" id="awayAdd1" onclick="awayAdd1()">+1</button>
+                    <button class="addbuttons" id="awayAdd2" onclick="awayAdd2()">+2</button>
+                    <button class="addbuttons" id="awayAdd3" onclick="awayAdd3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="basketball.js"></script>
+    </body>
+</html>

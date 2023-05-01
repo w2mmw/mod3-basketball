@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url("kings.jpg");
+    background-size: cover;
+}
+@font-face {
+    font-family: scoreboardFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+h3{
+    font-family: Veranda, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    color: #eeeeee;
+    margin-top: 68px;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: row;
+}
+.team{
+    width: 287px;
+}
+.scoreBack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    background: #000001;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+.score{
+    font-family: scoreboardFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+    padding:0;
+}
+.addScore{
+    display:flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+.addbuttons{
+    color: #9AABD8;
+    font-family: scoreboardFont;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    background: #1B244A;
+    border: 2px solid #9aabd8;
+    border-radius: 5px;
+    padding: 11px 11px;
+    margin: 0 5px;
+}
